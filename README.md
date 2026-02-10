@@ -3,12 +3,12 @@
 ## Overview
 
 Understanding how countries consume and produce energy is essential for tackling energy poverty and climate change.  
-According to *Our World in Data*, the world lacks a safe, low‑carbon and cheap large‑scale energy infrastructure; hundreds of millions of people still lack access to sufficient energy and the dominance of fossil fuels drives climate change and other health impacts【550209266395930†L30-L40】.  To design policies that accelerate a clean energy transition, we need robust data on energy consumption, the mix of energy sources and economic factors.  *Our World in Data* curates a comprehensive energy dataset that includes metrics on primary energy consumption, per‑capita energy use, growth rates, energy mix, electricity mix and other relevant indicators【952735077677573†L2-L6】.  The dataset follows a 1‑row‑per‑location‑and‑year format and comes with a codebook describing each indicator【952735077677573†L14-L23】.
+According to *Our World in Data*, the world lacks a safe, low‑carbon and cheap large‑scale energy infrastructure; hundreds of millions of people still lack access to sufficient energy and the dominance of fossil fuels drives climate change and other health impacts.  To design policies that accelerate a clean energy transition, we need robust data on energy consumption, the mix of energy sources and economic factors.  *Our World in Data* curates a comprehensive energy dataset that includes metrics on primary energy consumption, per‑capita energy use, growth rates, energy mix, electricity mix and other relevant indicators.  The dataset follows a 1‑row‑per‑location‑and‑year format and comes with a codebook describing each indicator.
 
 This project builds upon the World Bank’s World Development Indicators (WDI) to create an **advanced analytics and dashboard project** that employers will appreciate.  We pull three complementary energy and economic indicators from the WDI API:
 
-- **Renewable energy consumption (% of total final energy consumption)** (`EG.FEC.RNEW.ZS`): measures the share of final energy consumption obtained from renewable sources【679290037218889†L1-L18】.
-- **Energy use (kg of oil equivalent per capita)** (`EG.USE.PCAP.KG.OE`): estimates how much energy an average person consumes【384997618519143†L1-L8】.
+- **Renewable energy consumption (% of total final energy consumption)** (`EG.FEC.RNEW.ZS`): measures the share of final energy consumption obtained from renewable sources.
+- **Energy use (kg of oil equivalent per capita)** (`EG.USE.PCAP.KG.OE`): estimates how much energy an average person consumes.
 - **Population (total)** (`SP.POP.TOTL`) and **GDP per capita (constant 2015 US$)** (`NY.GDP.PCAP.KD`): provide demographic and economic context.
 
 We fetch these indicators for a set of major energy‑consuming economies (USA, China, India, Japan, Russia, Germany, United Kingdom, France, Brazil, Canada, Australia, South Africa, Mexico, Saudi Arabia, Indonesia, Korea, Italy, Spain and Turkey) from 1990 onwards.  Additional derived metrics – total energy use and energy intensity (energy use per capita divided by GDP per capita) – are calculated.
